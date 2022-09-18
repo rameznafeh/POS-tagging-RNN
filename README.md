@@ -50,9 +50,6 @@ Two Dense: Here we added an extra TimeDistributed Dense layer to the Baseline mo
 the original Dense layer. We set this Layer’s parameter to 128 and used ’relu’ activation. We also
 noticed that lowering the Bidirectional LSTM layer parameter to 32 results in better performance.
 
-#### 1
-
-
 ## 3 Results
 
 Models were trained with a batch size of 32 and up to 1000 epochs, as well as Early stopping with a
@@ -79,7 +76,3 @@ is to learn. This might explain the discrepancy between the test accuracy score 
 since the individual F1 scores among classes varied hugely (refer to findings in the last section of the
 notebook). Another more suitable method of evaluation could be to use a weighted F1 score instead
 of macro, giving a weight to each class proportionally to its frequency of occurrence.
-
-#### 2
-
-
